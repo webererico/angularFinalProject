@@ -1,0 +1,44 @@
+{
+  "categories": [
+    {
+      "id": "0",
+      "name": "Bebidas",
+      "description": "Bebidas sem alcool"
+    },
+    {
+      "id": "1",
+      "name": "Sobremesa",
+      "description": "Melhores sobremesas"
+    },
+    {
+      "id": "2",
+      "name": "Pratos Principais",
+      "description": "pratos individuais"
+    },
+    {
+      "id": "0",
+      "name": "Entradas",
+      "description": "Comidas para dividir"
+    },
+    {
+      "id": null,
+      "name": "Teste ",
+      "description": "Descricao"
+    },
+    {
+      "id": null,
+      "name": "ADASDASDA",
+      "description": "ADSADSA"
+    },
+    {
+      "id": 25,
+      "name": "TEste25",
+      "description": "Teste"
+    },
+    {
+      "id": null,
+      "name": "czccxzc",
+      "description": "cczxcxz"
+    }
+  ]
+}
