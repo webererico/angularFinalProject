@@ -1,0 +1,19 @@
+<mat-card-content>
+    <form [formGroup]="studentForm" (submit)="submeter()">
+        <mat-form-field>
+            <!-- formsControlName = Variavel conectada ao ts que controla o campo -->
+            <input matInput type="text" placeholder="Name" formControlName="name">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput type="text" placeholder="Email" formControlName="email">
+        </mat-form-field>
+        <span flex></span>
+        <mat-form-field>
+            <input matInput type="text" placeholder="Curso" formControlName="course">
+        </mat-form-field>
+        <span flex></span>
+        <button mat-raised-button color="white" type="submit">Salvar</button>
+        <span flex></span>
+        <button mat-raised-button color="white" (click)="limparCampos()">Limpar campos</button>
+    </form>
+</mat-card-content>

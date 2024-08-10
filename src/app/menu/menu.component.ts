@@ -28,6 +28,10 @@ export class MenuComponent {
       title: 'Categorias',
       path: '/categories'
     },
+    {
+      title: 'Estudantes',
+      path: '/students'
+    }
   ]
 
 }
