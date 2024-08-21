@@ -22,15 +22,15 @@ export class MenuComponent {
   menuList: MenuItem[] = [
     {
       title: 'Inicio',
-      path: '/dashboard'
+      path: '/home/dashboard'
     },
     {
       title: 'Categorias',
-      path: '/categories'
+      path: '/home/categories'
     },
     {
       title: 'Estudantes',
-      path: '/students'
+      path: '/home/students'
     }
   ]
 
