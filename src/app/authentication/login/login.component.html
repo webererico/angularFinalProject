@@ -16,6 +16,8 @@
                 <button class="SignUp" type="button" [routerLink]="['/authentication/signup']">Sign-Up ?</button>
             </div>
             <button class="login-button" type="submit" (click)="login()" [disabled]="loginForm.invalid">Log In</button>
+            <button class="login-button" (click)="loginFirebaseGoogle()" >Log In Pelo Firebase (Google)</button>
+            <button class="login-button" (click)="loginFirebaseEmail()" >Log In Pelo Firebase (Email)</button>
         </div>
     </form>
 </div>

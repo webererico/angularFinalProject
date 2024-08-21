@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ProjetoFinalAngular": {
+    "projetofinalangular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "ProjetoFinalAngular:build:production"
+              "buildTarget": "projetofinalangular:build:production"
             },
             "development": {
-              "buildTarget": "ProjetoFinalAngular:build:development"
+              "buildTarget": "projetofinalangular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -101,6 +101,9 @@
     }
   },
   "cli": {
-    "analytics": "2b9bfc99-def0-4556-8db3-8effb8a0abe7"
+    "analytics": "2b9bfc99-def0-4556-8db3-8effb8a0abe7",
+    "cache": {
+      "enabled": false
+    }
   }
 }

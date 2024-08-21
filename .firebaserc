@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "angularautenticacao",
+    "angular": "angularautenticacao"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
